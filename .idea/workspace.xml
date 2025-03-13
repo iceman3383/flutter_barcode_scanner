@@ -30,17 +30,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da89e606-25cd-40ec-9bab-57632cc5ea41" name="Default Changelist" comment="Removed hard set to FlutterActivity to allow apps that use FlutterFragmentActivity to also work.">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="da89e606-25cd-40ec-9bab-57632cc5ea41" name="Default Changelist" comment="Upgraded to framework v2 of Flutter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/amolg/flutterbarcodescanner/BarcodeCaptureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/amolg/flutterbarcodescanner/BarcodeCaptureActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/amolg/flutterbarcodescanner/FlutterBarcodeScannerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/amolg/flutterbarcodescanner/FlutterBarcodeScannerPlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -49,26 +56,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="1YQNuNGo768yzGFGn30Ain8m5KT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/howellm/development/open_source/flutter_barcode_scanner",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ios" />
@@ -82,6 +98,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+    <option name="toolchainPathValue" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -111,56 +131,14 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_barcode_scanner" />
     </ignored-roots>
     <MESSAGE value="Removed hard set to FlutterActivity to allow apps that use FlutterFragmentActivity to also work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed hard set to FlutterActivity to allow apps that use FlutterFragmentActivity to also work." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="268" y="196" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618866209289">
-      <screen x="0" y="23" width="1280" height="729" />
-    </state>
-    <state x="268" y="196" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.729@0.23.1280.729" timestamp="1618866209289" />
-    <state x="385" y="119" width="1015" height="895" key="DiffContextDialog" timestamp="1622554309841">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="385" y="119" width="1015" height="895" key="DiffContextDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1622554309841" />
-    <state width="1173" height="301" key="GridCell.Tab.0.bottom" timestamp="1622554309727">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1618868504824" />
-    <state width="1173" height="301" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1622554309727" />
-    <state width="1173" height="301" key="GridCell.Tab.0.center" timestamp="1622554309726">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1618868504824" />
-    <state width="1173" height="301" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1622554309726" />
-    <state width="1173" height="301" key="GridCell.Tab.0.left" timestamp="1622554309725">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1618868504824" />
-    <state width="1173" height="301" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1622554309725" />
-    <state width="1173" height="301" key="GridCell.Tab.0.right" timestamp="1622554309726">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1618868504824" />
-    <state width="1173" height="301" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1622554309726" />
-    <state x="116" y="208" key="SettingsEditor" timestamp="1622558695716">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="116" y="208" key="SettingsEditor/0.25.1792.1095@0.25.1792.1095" timestamp="1622558695716" />
-    <state x="207" y="309" key="Vcs.Push.Dialog.v2" timestamp="1622553992835">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="207" y="309" key="Vcs.Push.Dialog.v2/0.25.1792.1095@0.25.1792.1095" timestamp="1622553992835" />
-    <state x="409" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622553848866">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state x="409" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1792.1095@0.25.1792.1095" timestamp="1622553848866" />
+    <MESSAGE value="Upgraded to framework v2 of Flutter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgraded to framework v2 of Flutter" />
   </component>
   <component name="masterDetails">
     <states>
